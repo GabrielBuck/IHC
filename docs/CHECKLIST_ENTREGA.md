@@ -18,11 +18,13 @@
 - [x] Componentes reutilizáveis criados
 - [x] Dados mockados criados
 
-## Pendências externas
+## Links da entrega
 
-- [ ] Inserir link final do Figma
-- [ ] Inserir link final do vídeo
-- [ ] Inserir link final do GitHub, se necessário no relatório
+| Material | Link |
+| --- | --- |
+| Repositório | [github.com/GabrielBuck/IHC](https://github.com/GabrielBuck/IHC) |
+| Protótipo no Figma | [BookLog mobile app design](https://www.figma.com/make/MmezgsSChpxSqihPPcEtjg/BookLog-mobile-app-design?t=CiGCEmiSitwMmyHb-1) |
+| Vídeo |  |
 
 ## Conferência antes do envio
 

@@ -67,9 +67,9 @@ perfis diferentes de leitura: leitora frequente, leitor casual e participante de
 clubes. Os cenários abordam registrar livro como lido, buscar recomendação,
 publicar resenha, participar de grupo e acompanhar progresso.
 
-O protótipo de baixa fidelidade foi representado por wireframes textuais e deve ser
-complementado visualmente no Figma. As telas definidas foram: Login, Cadastro,
-Feed, Busca, Detalhes do Livro, Biblioteca, Resenha, Perfil, Grupos e
+O protótipo de baixa fidelidade foi representado por wireframes textuais e
+complementado pelo protótipo visual no Figma. As telas definidas foram: Login,
+Cadastro, Feed, Busca, Detalhes do Livro, Biblioteca, Resenha, Perfil, Grupos e
 Configurações.
 
 ### 2.3 Implementação
@@ -187,8 +187,8 @@ hierarquia, fluxo e elementos essenciais antes da implementação visual. As tel
 documentadas incluem Login, Cadastro, Feed, Busca, Detalhes do Livro, Biblioteca,
 Resenha, Perfil, Grupos e Configurações.
 
-O protótipo visual final deve ser disponibilizado no Figma:
-[inserir link do protótipo]
+Protótipo visual no Figma:
+[BookLog mobile app design](https://www.figma.com/make/MmezgsSChpxSqihPPcEtjg/BookLog-mobile-app-design?t=CiGCEmiSitwMmyHb-1)
 
 ## 7. Principais telas
 
@@ -197,10 +197,10 @@ O protótipo visual final deve ser disponibilizado no Figma:
 - Cadastro: criação visual de perfil de leitor com nome, e-mail e senha.
 - Feed: saudação, progresso de leitura e resenhas recentes da comunidade.
 - Busca: campo de busca, filtros por título, autor e gênero, e lista de livros.
-- Detalhes do Livro: capa placeholder, sinopse, nota média, status e ações.
+- Detalhes do Livro: capa visual, sinopse, nota média, status e ações.
 - Biblioteca: livros organizados em lendo, lidos e quero ler.
 - Resenha: seleção visual de nota, campo de texto e botão de publicação.
-- Perfil: avatar placeholder, estatísticas, gêneros favoritos e atividades.
+- Perfil: avatar visual, estatísticas, gêneros favoritos e atividades.
 - Grupos: comunidades de leitura com livro atual e número de participantes.
 - Configurações: acessibilidade, tema, fonte, notificações, privacidade e saída.
 
@@ -245,14 +245,16 @@ Ferramentas de IA utilizadas:
 - Google NotebookLM: apoio na organização visual e orientação dos slides.
 - Google Omni ou ferramenta equivalente: apoio no planejamento do vídeo de
   apresentação.
-- GitHub Codex: apoio na estruturação do repositório, geração assistida de código,
+- GitHub Codex: apoio na estruturação do repositório, implementação assistida,
   organização dos arquivos e documentação técnica.
 
-O grupo revisou e adaptou os conteúdos gerados ou sugeridos por IA, garantindo
-coerência com a proposta do BookLog e com os requisitos da disciplina.
+O grupo revisou e adaptou esses apoios, garantindo coerência com a proposta do
+BookLog e com os requisitos da disciplina.
 
 ## 11. Links da entrega
 
-- Repositório: [inserir link do repositório]
-- Protótipo no Figma: [inserir link do protótipo]
-- Vídeo: [inserir link do vídeo]
+| Material | Link |
+| --- | --- |
+| Repositório | [github.com/GabrielBuck/IHC](https://github.com/GabrielBuck/IHC) |
+| Protótipo no Figma | [BookLog mobile app design](https://www.figma.com/make/MmezgsSChpxSqihPPcEtjg/BookLog-mobile-app-design?t=CiGCEmiSitwMmyHb-1) |
+| Vídeo |  |

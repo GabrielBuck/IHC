@@ -19,7 +19,7 @@ export function ProfileScreen() {
       />
 
       <View style={styles.profileCard}>
-        <View accessibilityLabel="Avatar placeholder do usuário" style={styles.avatar}>
+        <View accessibilityLabel="Avatar do usuário" style={styles.avatar}>
           <Text style={styles.avatarText}>AS</Text>
         </View>
         <View style={styles.profileInfo}>

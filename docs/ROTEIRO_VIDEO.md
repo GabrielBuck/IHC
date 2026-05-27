@@ -16,7 +16,7 @@ Requisito: ambos devem aparecer no vídeo e explicar parte do projeto.
 | 2:45 - 3:45 | Julia | Demonstração das principais telas |
 | 3:45 - 4:20 | Gabriel | Implementação, componentes e acessibilidade |
 | 4:20 - 4:45 | Julia | Dificuldades e uso de IA |
-| 4:45 - 5:00 | Gabriel e Julia | Encerramento e links da entrega |
+| 4:45 - 5:00 | Gabriel e Julia | Encerramento e indicação do repositório e protótipo |
 
 ## Fala base
 
@@ -96,11 +96,13 @@ sempre com revisão do grupo."
 ### 11. Encerramento
 
 Gabriel e Julia:  
-"A documentação, o código, o protótipo e o vídeo estão disponíveis nos links da
-entrega. Obrigado."
+"A documentação e o código estão no GitHub, e o protótipo visual está disponível
+no Figma. Obrigado."
 
-## Links para inserir na versão final
+## Links de apoio
 
-- Repositório: [inserir link do repositório]
-- Protótipo no Figma: [inserir link do protótipo]
-- Vídeo: [inserir link do vídeo]
+| Material | Link |
+| --- | --- |
+| Repositório | [github.com/GabrielBuck/IHC](https://github.com/GabrielBuck/IHC) |
+| Protótipo no Figma | [BookLog mobile app design](https://www.figma.com/make/MmezgsSChpxSqihPPcEtjg/BookLog-mobile-app-design?t=CiGCEmiSitwMmyHb-1) |
+| Vídeo |  |

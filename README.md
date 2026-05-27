@@ -21,12 +21,14 @@ do projeto.
 
 ## Links da entrega
 
-- Repositório GitHub: [inserir link do repositório]
-- Protótipo no Figma: [inserir link do protótipo]
-- Vídeo de apresentação: [inserir link do vídeo]
-- Relatório final: [docs/RELATORIO.md](docs/RELATORIO.md)
-- Roteiro do vídeo: [docs/ROTEIRO_VIDEO.md](docs/ROTEIRO_VIDEO.md)
-- Checklist de entrega: [docs/CHECKLIST_ENTREGA.md](docs/CHECKLIST_ENTREGA.md)
+| Material | Link |
+| --- | --- |
+| Repositório GitHub | [github.com/GabrielBuck/IHC](https://github.com/GabrielBuck/IHC) |
+| Protótipo no Figma | [BookLog mobile app design](https://www.figma.com/make/MmezgsSChpxSqihPPcEtjg/BookLog-mobile-app-design?t=CiGCEmiSitwMmyHb-1) |
+| Vídeo de apresentação |  |
+| Relatório final | [docs/RELATORIO.md](docs/RELATORIO.md) |
+| Roteiro do vídeo | [docs/ROTEIRO_VIDEO.md](docs/ROTEIRO_VIDEO.md) |
+| Checklist de entrega | [docs/CHECKLIST_ENTREGA.md](docs/CHECKLIST_ENTREGA.md) |
 
 ## Funcionalidades principais
 
@@ -117,8 +119,8 @@ também apresenta opções planejadas de aumento de fonte e tema.
 ## Uso de IA
 
 Foram usadas ferramentas de IA como apoio ao brainstorm, estruturação textual,
-organização do repositório, geração assistida de código e revisão de documentação.
-O conteúdo foi revisado e adaptado pelo grupo. A declaração completa está em
+organização do repositório, implementação assistida e revisão de documentação. O
+conteúdo final foi revisado e adaptado pelo grupo. A declaração completa está em
 [docs/USO_DE_IA.md](docs/USO_DE_IA.md).
 
 ## Status do projeto

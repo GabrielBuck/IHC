@@ -9,7 +9,7 @@ adaptadas pelos integrantes.
 | ChatGPT | Brainstorm, requisitos, personas, documentação e roteiro | Apoio textual, organização de ideias e revisão de clareza |
 | NotebookLM | Projeto visual dos slides | Apoio na orientação visual e organização do material de apresentação |
 | Google Omni | Planejamento do vídeo | Apoio na estrutura do vídeo e divisão de falas |
-| GitHub Codex | Implementação e documentação | Apoio na criação de código, estruturação do repositório e documentação técnica |
+| GitHub Codex | Implementação e documentação | Apoio na implementação, estruturação do repositório e documentação técnica |
 
 ## Revisão pelo grupo
 

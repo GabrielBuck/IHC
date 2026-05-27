@@ -2,7 +2,8 @@
 
 O protótipo de baixa fidelidade do BookLog foi estruturado para representar a
 hierarquia das telas, os principais elementos e o fluxo de navegação. A versão
-visual no Figma deve ser vinculada em: [inserir link do protótipo]
+visual está disponível no Figma:
+[BookLog mobile app design](https://www.figma.com/make/MmezgsSChpxSqihPPcEtjg/BookLog-mobile-app-design?t=CiGCEmiSitwMmyHb-1)
 
 ## Login
 
