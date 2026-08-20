@@ -1,134 +1,85 @@
-# BookLog
+# BookLog Mobile UX Prototype
 
-![React Native](https://img.shields.io/badge/React%20Native-0.74-61DAFB)
-![Expo](https://img.shields.io/badge/Expo-51-000020)
-![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6)
-![IHC](https://img.shields.io/badge/IHC-Projeto%20Acad%C3%AAmico-8B1E2D)
+**React Native · TypeScript · Expo · Human-Computer Interaction · accessibility**
 
-BookLog é um protótipo acadêmico mobile para leitores organizarem leituras,
-registrarem progresso, salvarem livros desejados, avaliarem obras, escreverem
-resenhas, visualizarem recomendações e interagirem com grupos de leitura.
+Mobile product prototype for a reading ecosystem where users can organize books, track reading progress, publish reviews, discover recommendations and interact with reading groups.
 
-A implementação deste repositório é um front-end em React Native com Expo,
-TypeScript e dados mockados locais. O foco da entrega é demonstrar decisões de
-Interação Humano-Computador, acessibilidade básica, fluxo navegável e organização
-do projeto.
+This repository focuses on **product experience and interface design**. It was developed as an academic HCI project, using local mocked data to validate navigation, information architecture, accessibility decisions and end-to-end user flows without introducing backend complexity into the evaluation.
 
-## Integrantes
+## Product scope
 
-- Gabriel Nottoli Buck — RA: 10425384
-- Julia Andrade — RA: 10427828
+The prototype includes:
 
-## Links da entrega
+- onboarding, login and registration flows;
+- home/feed experience;
+- book discovery and search;
+- book-detail views;
+- personal library with reading states;
+- reading-progress tracking;
+- ratings and review flows;
+- reader profiles and activity summaries;
+- reading groups;
+- settings and accessibility-oriented controls.
 
-| Material | Link |
-| --- | --- |
-| Repositório GitHub | [github.com/GabrielBuck/IHC](https://github.com/GabrielBuck/IHC) |
-| Protótipo no Figma | [BookLog mobile app design](https://www.figma.com/make/MmezgsSChpxSqihPPcEtjg/BookLog-mobile-app-design?t=CiGCEmiSitwMmyHb-1) |
-| Vídeo de apresentação |  |
-| Relatório final | [docs/RELATORIO.md](docs/RELATORIO.md) |
-| Roteiro do vídeo | [docs/ROTEIRO_VIDEO.md](docs/ROTEIRO_VIDEO.md) |
-| Checklist de entrega | [docs/CHECKLIST_ENTREGA.md](docs/CHECKLIST_ENTREGA.md) |
+## Product and UX focus
 
-## Funcionalidades principais
+The project demonstrates decisions around:
 
-- Login e cadastro visual de usuário.
-- Feed com resenhas recentes.
-- Busca de livros por título, autor ou gênero.
-- Visualização de detalhes de livros.
-- Biblioteca pessoal com status: lendo, lido e quero ler.
-- Registro visual de progresso de leitura.
-- Tela para avaliação e publicação de resenha.
-- Perfil de leitor com estatísticas e atividades.
-- Grupos de leitura com livro atual e participantes.
-- Configurações com foco em acessibilidade.
+- information architecture;
+- mobile navigation and task flows;
+- reusable UI components;
+- visual hierarchy and design consistency;
+- accessible labels and roles;
+- touch-target usability;
+- communicating state through text in addition to color;
+- personas, scenarios, requirements and usability documentation.
 
-## Telas implementadas
-
-- Login
-- Cadastro
-- Início/feed
-- Busca
-- Detalhes do Livro
-- Biblioteca
-- Resenha
-- Perfil
-- Grupos
-- Configurações
-
-## Tecnologias utilizadas
+## Stack
 
 - React Native
 - Expo
 - TypeScript
-- Dados mockados locais
-- Componentes reutilizáveis
-- Navegação simulada com estado local
+- reusable components
+- local mocked data
+- accessibility APIs
 
-## Como rodar o projeto
+## Repository structure
+
+```text
+src/
+├── components/      # Reusable interface components
+├── data/            # Mocked product data
+├── navigation/      # Navigation flow
+├── screens/         # Main product screens
+├── styles/          # Typography, spacing and visual system
+├── types/           # TypeScript domain types
+└── utils/           # Accessibility and shared utilities
+
+docs/                # Requirements, personas, architecture and testing
+assets/              # Visual assets
+```
+
+## Running
 
 ```bash
 npm install
 npm run start
 ```
 
-Com o Expo iniciado, é possível abrir o protótipo no emulador, dispositivo físico
-com Expo Go ou navegador usando:
+The Expo development server can be used with a device, emulator or web browser.
 
-```bash
-npm run web
-```
+## Documentation
 
-## Estrutura do repositório
-
-```text
-IHC/
-  docs/                 Documentação acadêmica da entrega
-  src/
-    components/         Componentes reutilizáveis
-    data/               Dados mockados
-    navigation/         Navegação simulada
-    screens/            Telas do aplicativo
-    styles/             Cores, tipografia e espaçamento
-    types/              Tipos TypeScript
-    utils/              Utilidades de acessibilidade
-  assets/               Arquivos de apoio visual
-```
-
-## Acessibilidade
-
-O protótipo aplica contraste adequado, textos legíveis, botões com área de toque
-confortável, `accessibilityLabel` em ações importantes, `accessibilityRole` em
-botões e abas, e status descritos por texto além de cor. A tela de Configurações
-também apresenta opções planejadas de aumento de fonte e tema.
-
-## Documentação
-
-- [Relatório final](docs/RELATORIO.md)
-- [Requisitos](docs/REQUISITOS.md)
+- [Final report](docs/RELATORIO.md)
+- [Requirements](docs/REQUISITOS.md)
 - [Personas](docs/PERSONAS.md)
-- [Cenários e tarefas](docs/CENARIOS_E_TAREFAS.md)
-- [Arquitetura](docs/ARQUITETURA.md)
-- [Acessibilidade](docs/ACESSIBILIDADE.md)
-- [Testes](docs/TESTES.md)
-- [Uso de IA](docs/USO_DE_IA.md)
-- [Protótipo de baixa fidelidade](docs/PROTOTIPO_BAIXA_FIDELIDADE.md)
-- [Roteiro do vídeo](docs/ROTEIRO_VIDEO.md)
-- [Checklist de entrega](docs/CHECKLIST_ENTREGA.md)
+- [Scenarios and tasks](docs/CENARIOS_E_TAREFAS.md)
+- [Architecture](docs/ARQUITETURA.md)
+- [Accessibility](docs/ACESSIBILIDADE.md)
+- [Tests](docs/TESTES.md)
 
-## Uso de IA
+## Academic context
 
-Foram usadas ferramentas de IA como apoio ao brainstorm, estruturação textual,
-organização do repositório, implementação assistida e revisão de documentação. O
-conteúdo final foi revisado e adaptado pelo grupo. A declaração completa está em
-[docs/USO_DE_IA.md](docs/USO_DE_IA.md).
+Developed at **Universidade Presbiteriana Mackenzie** as a Human-Computer Interaction project. The repository represents the **mobile UX/prototyping layer** of the broader BookLog concept and is intentionally scoped to front-end interaction rather than production backend integration.
 
-## Status do projeto
-
-Protótipo acadêmico front-end concluído para demonstração da proposta de IHC. A
-arquitetura está preparada para evolução futura com API, banco de dados e
-autenticação real.
-
-## Licença
-
-Este projeto está licenciado sob a licença MIT. Consulte [LICENSE](LICENSE).
+The value of the project is in demonstrating the ability to translate user needs and product requirements into a structured, navigable and accessibility-aware mobile experience.
